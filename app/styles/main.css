@@ -1,0 +1,9 @@
+textarea, input { outline: none; }
+.ng-valid.ng-dirty{
+ border-color:#78FA89;
+    border-width:4px;
+}
+.ng-invalid.ng-dirty{
+border-color:#FA787E;
+border-width:3px;
+}
