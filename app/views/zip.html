@@ -1,15 +1,12 @@
 <div>
    <div class="container">
-        <h4>Enter the Information please</h4>
+        <h4>Enter the infomation</h4>
         <hr>
         <form name='areaForm' role="form" novalidate>
+            <div class="boxholder">
             <div class="form-group">
-                <label>Zipcode:</label>
-                <input type="number" name="myzip" ng-maxlength="5" ng-minlength="5" placeholder="5 digits zipcode" ng-model="myzip" required> <span ng-show="areaForm.myzip.$error.required">Zip-code is Required!</span><span ng-show="areaForm.myzip.$dirty&&areaForm.myzip.$invalid">Please input a valid Zipcode</span>
-            </div>
-            <div class="form-group">
-                <label>State:</label>
-                <select value="State" required>
+                <label class="control-label">State:</label>
+                <select value="State" required class="form-control">
                     <option>New Jersey</option>
                     <option>Michigan</option>
                     <option>New York</option>
@@ -19,15 +16,22 @@
                 </select>
             </div>
             <div class="form-group">
-                <label>Email:</label>
-                <input type="email" name="myemail" placeholder="Email" ng-model="myemail" required><span ng-show="areaForm.myemail.$pristine">Email is required!</span><span ng-show="areaForm.myemail.$dirty&&areaForm.myemail.$invalid">Please input a valid email address!</span></br>
+                <label class="control-label">Zipcode:</label>
+                <input type="number" name="myzip" ng-maxlength="5" ng-minlength="5" placeholder="5 digits zipcode" ng-model="myzip" required class="inputinfo form-control"> <span ng-show="areaForm.myzip.$error.required" >Zip-code is Required!</span><span ng-show="areaForm.myzip.$dirty&&areaForm.myzip.$invalid">Please input a valid Zipcode</span>
+            </div>
+            
+            <div class="form-group">
+                <label class="control-label">Email:</label>
+                <input type="email" name="myemail" placeholder="Email" ng-model="myemail" required class="inputinfo form-control"><span ng-show="areaForm.myemail.$pristine">Email is required!</span><span ng-show="areaForm.myemail.$dirty&&areaForm.myemail.$invalid">Please input a valid email address!</span></br>
                 <label>
                     <input type="checkbox"> Remember me</label>
             </div>
             </br>
             <div class="form-group">
-                <input type="submit" ng-disabled="areaForm.$invalid">
+                <input type="submit" ng-disabled="areaForm.$invalid" class="submitinfo">
             </div>
-            
+          </div>  
         </form>
+        
+    </div>
 </div>
