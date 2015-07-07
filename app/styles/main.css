@@ -15,6 +15,14 @@ border-width:2px;
     border-color: none;
     outline:none;
 }
+.container{
+
+}
+.wholebox{
+margin-top: 150px;
+background-color: rgba(255,255,255,0.2 );
+width:600px;
+}
 body{
 
 background-image: url(https://media0.giphy.com/media/147ObiifU87wHe/200.gif);
@@ -40,7 +48,7 @@ h4{
 text-align: center;
 }
 .boxholder{
-margin-left:0px;
+margin-top:0px;
 }
 textarea:focus,
 input[type="text"]:focus,
