@@ -8,6 +8,10 @@
  * Controller of the hiqApp
  */
 angular.module('hiqApp')
-  .controller('rootCtrl', function ($scope) {
+  .controller('rootCtrl', function ($scope, getUserService) {
+    getUserService.getUser().$promise.then(function(response) {
+      $scope.userName = response.userName;
+    });
+
     console.log('Root state');
   });
