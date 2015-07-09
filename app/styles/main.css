@@ -1,0 +1,30 @@
+
+
+.container .address {
+  	width: 60%;
+  	position: absolute;
+  	top: 20%;
+  	left: 20%;
+  	background-color: rgba(255,255,255,0.6);
+  }
+
+ .enterInfor {
+  	text-align: center;
+
+  }
+
+input {
+	width: 100px;
+}
+
+body{
+
+background-image: url(http://i.imgur.com/HrbeI.jpg);
+background-repeat: no-repeat;
+
+
+}
+
+.warning {
+	color: red;
+}
