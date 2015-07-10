@@ -19,7 +19,7 @@ border-width:2px;
 
 }
 .wholebox{
-margin-top: 150px;
+margin-top: 100px;
 background-color: rgba(255,255,255,0.2 );
 width:600px;
 }  
@@ -68,4 +68,33 @@ input[type="color"]:focus,
 .uneditable-input:focus {   
   border-color: none;
   outline: 0 none;
+}
+.container .address {
+  	width: 60%;
+  	position: absolute;
+  	top: 20%;
+  	left: 20%;
+  	background-color: rgba(255,255,255,0.2);
+  }
+
+ .enterInfor {
+  	text-align: center;
+
+  }
+
+input {
+	width: 100px;
+}
+
+
+.warning {
+	color: red;
+}
+/* Luke Zhang's CSS*/
+.buttonintoolbar{
+color:black;
+margin:0 8px;
+}
+.savecontinue{
+float:right;
 }

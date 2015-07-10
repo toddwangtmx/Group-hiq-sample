@@ -2,7 +2,18 @@
   Put your header here.
 </div>
 <div class="row">
-  Put your head tool bar here.
+  <div class="row">
+<div class="toolbar">
+    <hr>
+    <div class="buttonintoolbar">
+    <input type="submit" value="Back" ui-sref="root.zip">
+    <input type="submit" value="Next" ui-sref="root.address">
+    <input type="submit" value="Save &Continue" ng-disabled="areaForm.$invalid" 
+        src="/address" class="savecontinue">
+    </div>    
+    <hr>
+</div>
+</div>
 </div>
 <div class="row">
   <ui-view></ui-view>
