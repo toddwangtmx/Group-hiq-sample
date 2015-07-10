@@ -1,0 +1,71 @@
+textarea, input { outline: none; }
+.ng-valid.ng-dirty{
+ border-color:#78FA89;
+    border-width:2px;
+}
+.ng-invalid.ng-dirty{
+border-color:#FA787E;
+border-width:2px;
+}
+.form-control {
+    border-color: none;
+    outline: none;
+}
+.form-control:focus {
+    border-color: none;
+    outline:none;
+}
+.container{
+
+}
+.wholebox{
+margin-top: 150px;
+background-color: rgba(255,255,255,0.2 );
+width:600px;
+}
+body{
+
+background-image: url(https://media0.giphy.com/media/147ObiifU87wHe/200.gif);
+background-size:1500px 800px;
+background-repeat: no-repeat;
+
+
+}
+form{
+border:none;
+}
+div{
+color:white;
+
+}
+.inputinfo{
+color:black;
+}
+.submitinfo{
+color:black;
+}
+h4{
+text-align: center;
+}
+.boxholder{
+margin-top:0px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: none;
+  outline: 0 none;
+}
