@@ -2,10 +2,28 @@
   Put your header here.
 </div>
 <div class="row">
-   <button>Back</button>
-   <button>Next</button> 
-   <button>Save &Continue</button>
+<div class="toolbar">
+    <hr>
+    <div class="buttonintoolbar">
+    <input type="submit" class="btn btn-default col-sm-1" value="Back" ui-sref="root.zip" ng-disabled="view=zip&&view!=address">
+<!--
+        var a=function rootinzip(){
+        if(view="root.zip"){
+        
+        }else{
+        }}
+-->
+    <input type="submit" class="btn btn-default col-sm-1 nextBtn" value="Next" ui-sref="root.address">
+    <input type="submit" class="btn btn-default col-sm-2" value="Save&Continue" ng-disabled="areaForm.$invalid" src="/address" id="saveandcontinue">
+    </div>   
+
 </div>
+   
+</div>
+ <hr>
+
+
 <div class="row">
-  <ui-view></ui-view>
+    <ui-view></ui-view>
 </div>
+s
