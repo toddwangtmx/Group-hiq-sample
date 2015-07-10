@@ -6,4 +6,20 @@
     font-family:serif;
     font-weight: 500;
     float: center;
+    margin-top: .4cm;
+}
+
+.imageLogo{
+	margin-top: .4cm;
+	float: left;
+}
+
+.dateFont{
+	font-size:16px; 
+    color: blue;
+    font-family:serif;
+    font-weight: 500;
+    float: right;
+    margin-top: .4cm;
+
 }
